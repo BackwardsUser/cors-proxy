@@ -4,5 +4,7 @@ services:
     container_name: cors-proxy
     restart: unless-stopped
     tty: true
+    ports:
+    - "2889:2889"
     environment:
     - PORT=${PORT}
