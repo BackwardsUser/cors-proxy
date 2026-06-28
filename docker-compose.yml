@@ -1,0 +1,8 @@
+services:
+  cors-proxy:
+    build: .
+    container_name: cors-proxy
+    restart: unless-stopped
+    tty: true
+    environment:
+    - PORT=${PORT}

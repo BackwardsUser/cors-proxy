@@ -1,0 +1,13 @@
+{
+  "name": "cors-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Alexander Harding <AlexHardingYT@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs"
+}
